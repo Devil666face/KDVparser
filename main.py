@@ -1,7 +1,7 @@
 import asyncio
 from parser import Parser
-from parser import PageParser
-from parser import CardTextParser
+from page_parser import PageParser
+from card_text_parser import CardTextParser
 
 
 async def get_all_categories():
